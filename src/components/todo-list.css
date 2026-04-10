@@ -1,0 +1,28 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  transition: 0.2s;
+  background: #db875a;
+  width: 100%;
+}
+
+.todo:hover {
+  background: #f5f5f5;
+}
+
+.delete-button {
+  background: #ff7e5f;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background: #b51d12;
+}
